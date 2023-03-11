@@ -1,0 +1,132 @@
+* {
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(229, 57%, 11%);
+  background-image: url(images/bg-desktop.png);
+  background-size: contain;
+  background-position: left 0 top 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.all {
+  display: flex;
+  margin-top: 225px;
+  color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 35px;
+}
+.fylo {
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 15px 90px 15px 15px;
+  width: 340px;
+  height: 200px;
+  padding: 45px;
+}
+.folders {
+  margin-top: 20px;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+.iamimage1 {
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 12px;
+  padding: 13px 15px;
+}
+.iamimage2 {
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 12px;
+  padding: 15px 13px;
+}
+.iamimage3 {
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 12px;
+  padding: 17px 13px;
+}
+img[class^="iamimage"]:hover {
+  background-color: hsl(0, 0%, 100%);
+  transition: 0.5s;
+}
+.gb {
+  padding: 30px;
+  margin-top: 50px;
+  background-color: hsl(228, 56%, 26%);
+  border-radius: 15px;
+  color: white;
+  width: 540px;
+  height: 150px;
+}
+h1 {
+  font-size: 14px;
+  font-style: "Raleway";
+  font-weight: 400;
+}
+.ribbon {
+  background-color: hsl(229, 57%, 11%);
+  height: 16px;
+  width: 480px;
+  border-radius: 8px;
+}
+.prog {
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 180, 59, 1) 0%,
+    rgba(234, 0, 205, 1) 100%
+  );
+  height: 16px;
+  width: 73%;
+  border: 3.5px solid hsla(229, 57%, 11%, 0.918);
+  position: relative;
+}
+.circle {
+  box-sizing: border-box;
+  height: 6px;
+  width: 6px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  left: 339px;
+  bottom: 11px;
+}
+
+.cloud {
+  background-color: white;
+  height: 55px;
+  width: 85px;
+  position: ;
+}
+
+.limit {
+  display: inline-flex;
+  font-size: 14px;
+  gap: 390px;
+}
+
+/* .prog {
+  padding: 5px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 180, 59, 1) 0%,
+    rgba(234, 0, 205, 1) 100%
+  );
+  border-radius: 5px;
+} */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 25px;
+  align-self: center;
+}
+.attribution a:hover {
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
