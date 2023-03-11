@@ -12,11 +12,12 @@ body {
 }
 .all {
   display: flex;
-  margin-top: 225px;
-  color: white;
-  flex-wrap: wrap;
+  height: 100vh;
+  margin: 0;
+  align-items: center;
   justify-content: center;
-  align-content: center;
+  color: white;
+
   gap: 35px;
 }
 .fylo {
@@ -71,7 +72,7 @@ h1 {
   width: 480px;
   border-radius: 8px;
 }
-.prog {
+.progress {
   box-sizing: border-box;
   border-radius: 8px;
   background: linear-gradient(
@@ -97,32 +98,46 @@ h1 {
 
 .cloud {
   background-color: white;
-  height: 55px;
-  width: 85px;
-  position: ;
+  height: 60px;
+  width: 150px;
+  border-radius: 10px;
+  position: relative;
+  bottom: 135px;
+  left: 325px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
-
+.triangle {
+  width: 0;
+  height: 0;
+  position: relative;
+  bottom: 175px;
+  left: 445px;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-right: 30px solid rgb(255, 255, 255);
+}
+.info {
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(163, 163, 163);
+}
+.info1 {
+  font-size: 34px;
+  font-weight: 800;
+  color: hsl(229, 57%, 11%);
+}
 .limit {
   display: inline-flex;
   font-size: 14px;
   gap: 390px;
 }
 
-/* .prog {
-  padding: 5px;
-  background-image: linear-gradient(
-    90deg,
-    rgba(255, 180, 59, 1) 0%,
-    rgba(234, 0, 205, 1) 100%
-  );
-  border-radius: 5px;
-} */
-
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-top: 25px;
-  align-self: center;
 }
 .attribution a:hover {
   color: white;
